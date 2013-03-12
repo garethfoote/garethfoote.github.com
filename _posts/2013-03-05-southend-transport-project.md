@@ -4,7 +4,7 @@ title: "Southend Transport Project"
 description: "OSA+YoHa Project"
 category: project
 tags: []
-published: false
+published: true
 ---
 
 {% include JB/setup %}
