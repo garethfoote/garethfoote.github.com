@@ -42,7 +42,7 @@ Despite some reservations about the aesthetics and politics surrounding these de
 
 ### PhoneGap + PhoneGap Plugins (native Android code)
 
-Planning on using PhoneGap as master application and polyfilling missing functionality (currently: camera timelapse & light sensor) with native Android code in PhoneGap Plugin
+Planning on using PhoneGap as master application and polyfilling missing functionality (currently: camera timelapse & light sensor) with native Android code in PhoneGap Plugin.
 
 **Native Development - Camera**
 
