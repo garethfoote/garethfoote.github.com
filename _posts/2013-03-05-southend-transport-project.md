@@ -4,6 +4,7 @@ title: "Southend Transport Project"
 description: "OSA+YoHa Project"
 category: project
 tags: []
+published: false
 ---
 
 {% include JB/setup %}
@@ -24,7 +25,7 @@ Our initial aim from a technical perspective is to create a device that could po
 ## Android device
 Despite some reservations about the aesthetics and politics surrounding these devices they already contains the majority of these sensors out of the box.
 
-### Resources
+### Scripting Language for Android (S4LA)
 
 **Rooting a Nexus 7**
 
@@ -38,3 +39,7 @@ Despite some reservations about the aesthetics and politics surrounding these de
 
 - SL4A - Scripting platform for Android. Allows access to native Android functions using Python, Perl, JavaScript, etc. <http://code.google.com/p/android-scripting/>
 - Very quickly get a Python script running on Android including an installer and .apk file. <http://clusterbleep.net/blog/2012/07/31/how-to-create-an-android-app-and-apk-on-android-with-python/>
+
+### PhoneGap + PhoneGap Plugins (native Android code)
+
+**Planning on using PhoneGap as master application and polyfilling missing functionality (currently: camera timelapse & light sensor) with native Android code in PhoneGap Plugin** 
