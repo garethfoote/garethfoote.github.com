@@ -44,4 +44,10 @@ Despite some reservations about the aesthetics and politics surrounding these de
 
 Planning on using PhoneGap as master application and polyfilling missing functionality (currently: camera timelapse & light sensor) with native Android code in PhoneGap Plugin
 
+**Native Development - Camera**
+
 - Android Camera Application demo <https://github.com/commonsguy/cw-advandroid>
+
+
+**PhoneGap Development**
+- *App*Laud Eclipse Plugin - PhoneGap project bootstrapping. <http://www.mobiledevelopersolutions.com/home/start>
