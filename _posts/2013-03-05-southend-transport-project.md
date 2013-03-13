@@ -51,7 +51,7 @@ Combined we have more experience in Python, Perl, JavaScript so are attempting t
 * Because of simple API and Java code used to access sensors, debugging is a problem.
 
 
-## PhoneGap + PhoneGap Plugins (native Android code)
+## PhoneGap + PhoneGap Plugins (native Android/Java)
 
 Planning on using PhoneGap as master application and polyfilling missing functionality (currently: camera timelapse & light sensor) with native Android code in PhoneGap Plugin.
 
@@ -61,7 +61,7 @@ Planning on using PhoneGap as master application and polyfilling missing functio
 
 
 **PhoneGap Development**
-
+ 
 * *App*Laud Eclipse Plugin - PhoneGap project bootstrapping. <http://www.mobiledevelopersolutions.com/home/start>
 * Pot hole detection: Difficulties involved in detecting potholes because accelerometer does not detect shifts relative to previous position. Essentially works out 3 axis orientation. Despite this there are a lot of 'shake' detection solutions that use accelerometer such for Android and PhoneGap:
   * PhoneGap shake events <http://mobile.tutsplus.com/tutorials/phonegap/phonegap-from-scratch-device-apis/>
