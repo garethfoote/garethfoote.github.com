@@ -69,3 +69,5 @@ Planning on using PhoneGap as master application and polyfilling missing functio
 * Pot hole detection: [Difficulties involved in detecting potholes](http://stackoverflow.com/questions/6502492/where-can-i-find-resources-and-code-samples-for-making-use-of-the-signal-from-an) because accelerometer does not detect shifts relative to previous position. Essentially works out 3 axis orientation. Despite this there are a lot of 'shake' detection solutions that use accelerometer such for Android and PhoneGap:
   * PhoneGap shake events <http://mobile.tutsplus.com/tutorials/phonegap/phonegap-from-scratch-device-apis/>
   * Android Native shake events <http://stackoverflow.com/questions/2317428/android-i-want-to-shake-it>
+  
+* Light Sensor - Basic Java installation <http://android-coding.blogspot.co.uk/2011/10/using-android-device-build-in-light.html> 
