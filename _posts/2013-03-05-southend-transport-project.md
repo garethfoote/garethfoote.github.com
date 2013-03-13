@@ -70,5 +70,5 @@ Planning on using PhoneGap as master application and polyfilling missing functio
   * PhoneGap shake events <http://mobile.tutsplus.com/tutorials/phonegap/phonegap-from-scratch-device-apis/>
   * Android Native shake events <http://stackoverflow.com/questions/2317428/android-i-want-to-shake-it>
   
-
 * Light Sensor - Basic Java example <http://android-coding.blogspot.co.uk/2011/10/using-android-device-build-in-light.html> 
+* ...
