@@ -26,19 +26,29 @@ Our initial aim from a technical perspective is to create a device that could po
 Despite some reservations about the aesthetics and politics surrounding these devices they already contains the majority of these sensors out of the box.
 
 ### Scripting Language for Android (S4LA)
+Combined we have more experience in Python, Perl, JavaScript so are attempting to use this alpha(!) software that enables scripting languages (Python in this case) to be installed on rooted Android device.
 
 **Rooting a Nexus 7**
 
-- Installing Android SDK for linux (makes adb cli tools available).
-  <http://android.stackexchange.com/questions/37760/how-do-i-root-my-nexus-7>.
-  *Note: Step 6 missing link [available here](http://teamw.in/project/twrp2/103)*
-- Installing Android SDK for linux (makes adb cli tools available)
+* Installing Android SDK for linux (makes adb cli tools available).
+  <http://android.stackexchange.com/questions/37760/how-do-i-root-my-nexus-7>.  
+  *Note: Step 6 missing link [available here](http://teamw.in/project/twrp2/103).*
+* Installing Android SDK for linux (makes adb cli tools available)  
 <http://bernaerts.dyndns.org/linux/245-ubuntu-precise-install-android-sdk>
 
 **Get Scripting**
 
-- SL4A - Scripting platform for Android. Allows access to nahttp://prose.io/#tive Android functions using Python, Perl, JavaScript, etc. <http://code.google.com/p/android-scripting/>
-- Very quickly get a Python script running on Android including an installer and .apk file. <http://clusterbleep.net/blog/2012/07/31/how-to-create-an-android-app-and-apk-on-android-with-python/>
+* SL4A - Scripting platform for Android. Allows access to native Android functions using Python, Perl, JavaScript, etc.  
+<http://code.googlecom/p/android-scripting/>
+* Very quickly get a Python script running on Android including an installer and .apk file.  
+<http://clusterbleep.net/blog/2012/07/31/how-to-create-an-android-app-and-apk-on-android-with-python/>
+
+**Overview**
+
+* Very easy  to install and use (once device is rooted)
+* Simple API. Two lines of code to access Camera, GPS sensors, etc
+* Flakey. Camera gave Java NullPointer error and GPS returned empty results array
+* Because of simple API and Java code used to access sensors, debugging is a problem.
 
 ### PhoneGap + PhoneGap Plugins (native Android code)
 
