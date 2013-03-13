@@ -22,10 +22,10 @@ Our initial aim from a technical perspective is to create a device that could po
 - GPS detection.
 - Video/Stills camera.
 
-## Android device
+# Android device
 Despite some reservations about the aesthetics and politics surrounding these devices they already contains the majority of these sensors out of the box.
 
-### Scripting Language for Android (S4LA)
+## Scripting Language for Android (S4LA)
 Combined we have more experience in Python, Perl, JavaScript so are attempting to use this alpha(!) software that enables scripting languages (Python in this case) to be installed on rooted Android device.
 
 **Rooting a Nexus 7**
@@ -50,7 +50,8 @@ Combined we have more experience in Python, Perl, JavaScript so are attempting t
 * Flakey. Camera gave Java NullPointer error and GPS returned empty results array
 * Because of simple API and Java code used to access sensors, debugging is a problem.
 
-### PhoneGap + PhoneGap Plugins (native Android code)
+
+## PhoneGap + PhoneGap Plugins (native Android code)
 
 Planning on using PhoneGap as master application and polyfilling missing functionality (currently: camera timelapse & light sensor) with native Android code in PhoneGap Plugin.
 
@@ -61,4 +62,7 @@ Planning on using PhoneGap as master application and polyfilling missing functio
 
 **PhoneGap Development**
 
-- *App*Laud Eclipse Plugin - PhoneGap project bootstrapping. <http://www.mobiledevelopersolutions.com/home/start>
+* *App*Laud Eclipse Plugin - PhoneGap project bootstrapping. <http://www.mobiledevelopersolutions.com/home/start>
+* Pot hole detection: Difficulties involved in detecting potholes because accelerometer does not detect shifts relative to previous position. Essentially works out 3 axis orientation. Despite this there are a lot of 'shake' detection solutions that use accelerometer such for Android and PhoneGap:
+  * PhoneGap shake events <http://mobile.tutsplus.com/tutorials/phonegap/phonegap-from-scratch-device-apis/>
+  * Android Native shake events <http://stackoverflow.com/questions/2317428/android-i-want-to-shake-it>
