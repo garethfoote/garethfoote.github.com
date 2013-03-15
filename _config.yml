@@ -9,11 +9,11 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Gareth Foote
+title : &#8251;
 tagline: Projects and Resources
 author :
   name : Gareth Foote
-  email : blah@email.test
+  email : gareth.foote@gmail.com
   github : garethfoote
   twitter : gaffafoote
   feedburner : feedname
@@ -83,7 +83,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : projectsandresources
     livefyre :
       site_id : 123
     intensedebate :
