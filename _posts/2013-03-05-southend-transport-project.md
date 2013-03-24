@@ -58,11 +58,12 @@ Planning on using PhoneGap as master application and polyfilling missing functio
 **Native Development - Camera**
 
 - Android Camera Application demo <https://github.com/commonsguy/cw-advandroid>
-
+- Stoping the screen from dimming <http://chris-allen-lane.com/2012/11/phonegap-prevent-an-android-devices-screen-from-sleeping/>
 
 **PhoneGap Development**
  
 * *App*Laud Eclipse Plugin - PhoneGap project bootstrapping. <http://www.mobiledevelopersolutions.com/home/start>
+* Adding native options menu to PhoneGap project. Used for stopping activity. <http://simonmacdonald.blogspot.co.uk/2012/11/building-native-menu-with-phonegap.html>
 
 **Sensors**
 
