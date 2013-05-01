@@ -9,7 +9,7 @@ published: true
 
 {% include JB/setup %}
 
-Our initial aim from a technical perspective is to create a device that could possible consist of a combination of the following sensors.
+Our initial aim from a technical perspective is to create a device that could consist of a combination of the following sensors.
 
 - Light
 - Sound level (db)
