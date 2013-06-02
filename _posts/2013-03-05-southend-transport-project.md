@@ -1,10 +1,11 @@
 ---
+published: "true"
 layout: post
-title: "Southend Transport Project"
-description: "OSA+YoHa Project"
+title: Southend Transport Project
+description: OSA+YoHa Project
 category: project
 tags: []
-published: true
+
 ---
 
 {% include JB/setup %}
@@ -23,7 +24,7 @@ Our initial aim from a technical perspective is to create a device that could co
 - Video/Stills camera.
 
 ## Android device
-Despite some reservations about the aesthetics and politics surrounding these devices they already contains the majority of these sensors out of the box.
+Despite some reservations about the aesthetics and politics surrounding these devices they already contain the majority of these sensors out of the box.
 
 ### Scripting Language for Android (S4LA)
 Combined we have more experience in Python, Perl, JavaScript so are attempting to use this alpha(!) software that enables scripting languages (Python in this case) to be installed on rooted Android device.
